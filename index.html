@@ -1,100 +1,183 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head><!--Cabeçalho-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina html</title>
-<<<<<<< HEAD
-    <!--CSS Externo-->
-    <link rel="stylesheet" href="estilo.css">
-    <!--CSS Interno-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículo - Felipe Matis de Almeida</title>
     <style>
-        /*por seletor */
-        body{
-            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            background-color:blanchedalmond;
-            /*Espaçamento Externo*/
-            margin: 80px;
-            /*Espaçamento Interno*/
-            padding: 80px;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f3f3f3;
+        margin: 30px;
+      }
 
-        h1{
-            color:blueviolet;
-            text-align: center;
-        }
+      .container {
+        max-width: 900px;
+        background-color: white;
+        margin: auto;
+        padding: 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
 
-        /*classe*/
-        .destaque{
-            color:Green;
-            font-size: 18px;
-            border: 2px dashed red;
-            padding:10px;
+      .cabecalho {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
 
-        }
-        /*id*/
-        #especial{
-            background-color:azure;
-            /*margin: 20px;*/
-            padding: 10px;
-            border: 2px solid black;
-        }
+      .cabecalho img {
+        width: 150px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
 
+      .cabecalho-info h1 {
+        margin: 0;
+        font-size: 24px;
+      }
 
+      .cabecalho-info p {
+        margin: 4px 0;
+      }
+
+      hr {
+        margin: 25px 0;
+      }
+
+      h2 {
+        font-size: 20px;
+        border-bottom: 1px solid #000;
+        padding-bottom: 5px;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      .duas-colunas {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+      }
+
+      .coluna {
+        flex: 1;
+        min-width: 300px;
+      }
+
+      .secao {
+        margin-bottom: 30px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cabecalho">
+        <img
+          src="WhatsApp Image 2025-03-21 at 08.27.31 (1).jpeg"
+          alt="Foto Felipe"
+        />
+        <div class="cabecalho-info">
+          <h1>Felipe Matis de Almeida</h1>
+          <p>Rua Saldanha Marinho 3775 - Bairro dos Estados - Guarapuava-PR</p>
+          <p>📞 (43) 9 9805-7374</p>
+          <p>✉️ felipematis40@gmail.com</p>
+          <p>
+            <a href="https://www.linkedin.com/in/felipe-matis-a98a09282/"
+              >Linkedin</a
+            >
+          </p>
+          <p>
+            <a href="https://github.com/FelipeMatis">GitHub</a>
+          </p>
+        </div>
+      </div>
 
-    <h1 style="background-color:DodgerBlue;">Bem vindo</h1>
-    <p class="destaque">Este parágrafo usa uma classe no CSS</p>
-    <div id="especial">Este é um bloco especial COM ID</div>
-    <p class="externo">Arquivo Externo</p>
-=======
-</head>
-<body>
-    <style>
-        body {
-      background-color: #7FFFD4; 
-    }
-    </style>
+      <hr />
 
-    <h1 style="background-color:DodgerBlue;">Bem vindo</h1>
->>>>>>> 0483e90b35a5eaf0b022082c167ba0b08300fced
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti deserunt inventore eaque possimus itaque sit ex velit at? Quo at error architecto labore rem porro nulla, omnis earum ea sequi.</p>
-    <p>Explore mais sobre dev web visitando os seguintes links:</p>
-    <!--Lista não ordenada-->
-    <ul>
-        <!--Itens-->
-        <li>
-            <a href="https://www.w3schools.com/" target="_blank">
-                W3Schools
-            </a>
-        </li>
-        <li>
-            <a href="https://developer.mozilla.org/" target="_blank">
-                MDN Web Docs
-            </a>
-        </li>
-    </ul>
-    <!--Lista ordenada-->
-    <p>
-        Além disso aqui,estão algumas tarefas básicas para você experimentar no HTML:
-    </p>
-    <ol>
-        <li>Criar uma nova página com suas informações pessoais.</li>
-        <li>Adicionar imagens e links para seus sites favoritos</li>
+      <div class="secao">
+        <h2>Resumo</h2>
+        <p>
+          Estudante de Ciência da Computação, apaixonado por tecnologia e
+          inovação. Estou sempre em busca de aperfeiçoamento na área,
+          desenvolvendo habilidades em diversas linguagens de programação e
+          participando ativamente de eventos e cursos. Possuo boa comunicação,
+          facilidade para trabalhar em equipe e grande interesse em aprender
+          novas ferramentas e soluções tecnológicas.
+        </p>
+      </div>
 
-    </ol>
-    <img src="images.jpg" alt="Flowers in Chania">
+      <div class="secao">
+        <h2>Habilidades e Competências</h2>
+        <div class="duas-colunas">
+          <div class="coluna">
+            <ul>
+              <li>Disposição para o trabalho em equipe</li>
+              <li>Boa comunicação com a equipe</li>
+              <li>Motivação para o aprendizado</li>
+              <li>Desenvolvimento constante</li>
+              <li>Disciplina para seguir normas e regras</li>
+              <li>Proatividade nas empresas</li>
+              <li>Destaque na vontade de aprender</li>
+            </ul>
+          </div>
+          <div class="coluna">
+            <ul>
+              <li>Conhecimento em C</li>
+              <li>
+                Conhecimento básico em C++, Python, HTML, CSS, JavaScript e Java
+              </li>
+              <li>Conhecimentos básicos em informática</li>
+              <li>Capacidade de solucionar problemas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-    <iframe width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
-</iframe
+      <div class="secao">
+        <h2>Experiência Profissional</h2>
+      </div>
 
-    <p style="font: size 244px;">
-        &#128512;
-    </p>
+      <div class="secao">
+        <h2>Formação Acadêmica</h2>
+        <ul>
+          <li>
+            <strong>Bacharelado em Ciência da Computação – Uenp</strong> (Abril
+            2023 - Abril 2025)<br />Status: Trancado
+            <p>
+              - Adquiri conhecimentos introdutórios na área de tecnologia por
+              meio de estudos e experiências práticas.<br />
+              - Participei de minicursos e rodas de desenvolvimento de
+              habilidades técnicas.<br />
+              - Acompanhei eventos da área, como o AgroHub, no qual obtive
+              destaque ao conquistar o 2º lugar na competição.
+            </p>
+          </li>
+          <li>
+            <strong>Bacharelado em Ciência da Computação – Unicentro</strong>
+            (Julho 2027)<br />Status: Cursando
+          </li>
+        </ul>
+      </div>
 
+      <div class="secao">
+        <h2>Idiomas</h2>
+        <ul>
+          <li>Português – Língua Materna</li>
+          <li>Inglês – Intermediário</li>
+        </ul>
+      </div>
 
-</body>
+      <div class="secao">
+        <h2>Certificados</h2>
+        <ul>
+          <li>Minicurso de Desenvolvimento de Jogos com Godot</li>
+          <li>Curso em C</li>
+          <li>Minicurso de Introdução à Machine Learning</li>
+          <li>Introdução ao POWER BI</li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
